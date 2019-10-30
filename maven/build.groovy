@@ -6,6 +6,6 @@ void call(){
     } else {
       buildCommand = "clean install"
     }
-    println "maven" + buildCommand
+    println "maven " + buildCommand
   }
 }
