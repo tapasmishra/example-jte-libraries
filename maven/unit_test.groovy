@@ -1,3 +1,5 @@
 void call(){
-  println "maven: unit_test()"
+  node('PROD-LIN7'){
+    println "maven: unit_test() on DEVCLD-LIN7"
+  }
 }
